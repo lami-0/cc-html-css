@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 45px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(120, 120, 120, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e263e;
+}
+
+.nav__notification {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.nav__noti-number {
+  color: white;
+  font-weight: 600;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__noti-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  left: 35px;
+  bottom: 30px;
+}
