@@ -23,23 +23,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
 }
 
-.nav__noti-number {
+.nav__noti--number {
   color: white;
   font-weight: 600;
   width: 26px;
   height: 26px;
   border-radius: 13px;
+}
+
+.nav__noti--absolute {
+  position: absolute;
   left: 20px;
   bottom: 15px;
 }
 
-.nav__noti-dot {
+.nav__noti--dot {
+  position: absolute;
   width: 6px;
   height: 6px;
   border-radius: 3px;
   left: 35px;
   bottom: 30px;
+}
+
+.nav__dot--near {
+  left: 25px;
+  bottom: 25px;
 }
